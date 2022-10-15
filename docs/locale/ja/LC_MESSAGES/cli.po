@@ -46,7 +46,7 @@ msgstr "List-*コマンド"
 msgid ""
 "These commands are used to list the packages available for installation "
 "with ``aqt``."
-msgstr "このコマンドは、``aqt`でインストールできるパッケージを一覧表示するために使用します。"
+msgstr "このコマンドは、``aqt`` でインストールできるパッケージを一覧表示するために使用します。"
 
 #: ../../cli.rst:37
 msgid "list-qt command"
@@ -86,7 +86,7 @@ msgid ""
 "Use the ``--extensions`` flag to list all relevant options for a "
 "host/target. Incompatible with the ``--extensions`` flag, but may be "
 "combined with any other flag."
-msgstr "ホスト/ターゲットに関連するすべてのオプションをリストするには、`--extensions``フラグを使用してください。`--extensions``フラグとは互換性がありませんが、他のフラグと組み合わせることができます。"
+msgstr "ホスト/ターゲットに関連するすべてのオプションをリストするには、``--extensions`` フラグを使用してください。``--extensions`` フラグとは互換性がありませんが、他のフラグと組み合わせることができます。"
 
 #: ../../cli.rst:81
 msgid ""
@@ -94,7 +94,7 @@ msgid ""
 "set, this prints all valid arguments for the ``--extension`` flag for Qt "
 "5.X.Y, or the latest version of Qt if ``latest`` is specified. "
 "Incompatible with the ``--extension`` flag."
-msgstr "\"5.X.Y\"形式のQtバージョン、またはキーワード``latest``。これを設定すると、Qt 5.X.Yの ``--extension`` フラグの有効な引数をすべて出力します。または、``latest``が指定されている場合はQtの最新バージョンを出力します。`--extension`フラグとは互換性がありません。"
+msgstr "\"5.X.Y\"形式のQtバージョン、またはキーワード ``latest``  。これを設定すると、Qt 5.X.Yの  ``--extension``  フラグの有効な引数をすべて出力します。または、``latest`` が指定されている場合はQtの最新バージョンを出力します。``--extension`` フラグとは互換性がありません。"
 
 #: ../../cli.rst:88
 msgid ""
@@ -130,7 +130,7 @@ msgid ""
 "Qt version in the format of \"5.X.Y\". When set, this prints all "
 "architectures available for Qt 5.X.Y with a host/target/extension, or the"
 " latest version of Qt if ``latest`` is specified."
-msgstr "Qt version in the format of \"5.X.Y\". 設定すると、ホスト/ターゲット/拡張機能を持つQt 5.X.Yで利用可能なすべてのアーキテクチャを出力します。``latest`` が指定されている場合は、最新バージョンのQtを出力します。"
+msgstr "「5.X.Y」形式のQtバージョン。設定すると、ホスト/ターゲット/拡張機能を持つQt 5.X.Yで利用可能なすべてのアーキテクチャを出力します。``latest`` が指定されている場合は、最新バージョンのQtを出力します。"
 
 #: ../../cli.rst:158
 msgid ""
@@ -141,7 +141,7 @@ msgid ""
 "arguments must be the names of modules available for the preceding "
 "version and architecture. You can use the ``--modules`` flag to see a "
 "list of acceptable values."
-msgstr "このフラグには、'Qt version'と'architecture'の2つ以上の引数のリストが必要です。'Qt version'引数は、\"5.X.Y\"または\"latest\"キーワードの形式にすることができます。'architecture' 引数に指定できる値のリストを見るには、``--arch`` フラグを使用します。後続の引数は、以前のバージョンとアーキテクチャーで使用できるモジュールの名前である必要があります。受け入れ可能な値のリストを見るために、``--modules`` フラグを使うことができます。"
+msgstr "このフラグには、'Qt version' と 'architecture' の2つ以上の引数のリストが必要です。'Qt version'引数は、\"5.X.Y\"または \"latest\" キーワードの形式にすることができます。'architecture'  引数に指定できる値のリストを見るには、 ``--arch`` フラグを使用します。後続の引数は、以前のバージョンとアーキテクチャーで使用できるモジュールの名前である必要があります。受け入れ可能な値のリストを見るために、 ``--modules`` フラグを使うことができます。"
 
 #: ../../cli.rst:164
 msgid ""
@@ -322,13 +322,13 @@ msgstr "出力ディレクトリを指定します。デフォルトでは、aqt
 msgid ""
 "Specify mirror site base url such as  -b "
 "``https://mirrors.dotsrc.org/qtproject`` where 'online' folder exist."
-msgstr "'online' フォルダが存在する -b ``https://mirrors.dotsrc.org/qtproject`` などのミラーサイトベースURLを指定します。"
+msgstr "'online' フォルダを提供するミラーサイトについて、そのベースURLを -b ``https://mirrors.dotsrc.org/qtproject`` のように指定します。"
 
 #: ../../cli.rst:390
 msgid ""
 "Specify the path to your own ``settings.ini`` file. See :ref:`the "
 "Configuration section<configuration-ref>`."
-msgstr "独自の ``settings.ini`` ファイルへのパスを指定します。:ref:`the Configuration section <configuration-ref>` を参照してください。"
+msgstr "独自の ``settings.ini`` ファイルへのパスを指定します。:ref:`構成の章 <configuration-ref>` を参照してください。"
 
 #: ../../cli.rst:394
 msgid ""
@@ -360,7 +360,7 @@ msgid ""
 "Use ``--archive-dest <path>`` to choose where aqt will place these files."
 " If you do not specify a download destination, aqt will place these files"
 " in the current working directory."
-msgstr "指定された場合はダウンロードされたアーカイブを保持します。指定されていない場合はインストール後に削除します。これらのファイルをaqtが配置する場所を選択するには、 ``--archive-dest <path>``を使用します。ダウンロード先を指定しない場合、aqtはこれらのファイルを現在の作業ディレクトリに配置します。"
+msgstr "指定された場合はダウンロードされたアーカイブを保持します。指定されていない場合はインストール後に削除します。これらのファイルをaqtが配置する場所を選択するには、 ``--archive-dest <path>`` を使用します。ダウンロード先を指定しない場合、aqtはこれらのファイルを現在の作業ディレクトリに配置します。"
 
 #: ../../cli.rst:423
 msgid ""
@@ -400,7 +400,7 @@ msgstr "install-qt"
 
 #: ../../cli.rst:439 ../../cli.rst:482
 msgid "`list-qt command`_"
-msgstr "`list-qt command`_"
+msgstr ":ref: `list-qt コマンド <list-qt command>`"
 
 #: ../../cli.rst:439
 msgid "``list-qt <host> <target> --modules <version> <arch>``"
@@ -412,7 +412,7 @@ msgstr "install-example"
 
 #: ../../cli.rst:441 ../../cli.rst:484
 msgid "`list-example command`_"
-msgstr "`list-example command`_"
+msgstr ":ref: `list-example コマンド <list-example command>`"
 
 #: ../../cli.rst:441
 msgid "``list-example <host> <version> --modules``"
@@ -424,7 +424,7 @@ msgstr "install-doc"
 
 #: ../../cli.rst:443 ../../cli.rst:488
 msgid "`list-doc command`_"
-msgstr "`list-doc command`_"
+msgstr ":ref: `list-doc コマンド <list-doc command>`"
 
 #: ../../cli.rst:443
 msgid "``list-doc <host> <version> --modules``"
@@ -444,7 +444,7 @@ msgstr "次のように、複数のモジュールをインストールできま
 msgid ""
 "If you wish to install every module available, you may use the ``all`` "
 "keyword instead of a list of modules, like this:"
-msgstr "利用可能なすべてのモジュールをインストールしたい場合は、次のように、モジュールのリストの代わりに ``all``キーワードを使うことができます。"
+msgstr "利用可能なすべてのモジュールをインストールしたい場合は、次のように、モジュールのリストの代わりに ``all`` キーワードを使うことができます。"
 
 #: ../../cli.rst:468
 msgid ""
@@ -465,7 +465,7 @@ msgstr "このオプションは、``install-tool``を除くすべての ``insta
 msgid ""
 "You can print a list of all acceptable values to use with this command by"
 " using the appropriate ``aqt list-*`` command:"
-msgstr "適切な``aqt list-*`` コマンドを使えば、このコマンドで使える全ての値のリストを出力することができます。"
+msgstr "適切な ``aqt list-*`` コマンドを使えば、このコマンドで使える全ての値のリストを出力することができます。"
 
 #: ../../cli.rst:482
 msgid "``list-qt <host> <target> --archives <version>``"
@@ -553,7 +553,7 @@ msgstr "Androidの場合は： android_armv7, android_arm64_v8a, android_x86, an
 
 #: ../../cli.rst:561
 msgid "Use the :ref:`List-Qt Command` to list available architectures."
-msgstr ":ref:`List-Qt Command` を使用して、利用可能なアーキテクチャを一覧表示してください。"
+msgstr ":ref:`List-Qtコマンド <List-Qt Command>` を使用して、利用可能なアーキテクチャを一覧できます。"
 
 #: ../../cli.rst:565
 msgid ""
@@ -572,7 +572,7 @@ msgstr "[高度]すべての基本パッケージをインストールしない�
 #: ../../cli.rst:574 ../../cli.rst:635 ../../cli.rst:688 ../../cli.rst:743
 #: ../../cli.rst:790
 msgid "See `common options`_."
-msgstr "`common options`_ 参照"
+msgstr ":ref:`共通オプション <common options>`  参照"
 
 #: ../../cli.rst:580
 msgid "install-src command"

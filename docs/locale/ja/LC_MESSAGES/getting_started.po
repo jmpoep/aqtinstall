@@ -113,7 +113,7 @@ msgid ""
 "The next thing we need to do is find out what architectures are available"
 " for Qt 6.2.0 for Windows Desktop. To do this, we can use :ref:`aqt list-"
 "qt <list-qt command>` with the ``--arch`` flag:"
-msgstr "次にすべきことは、Qt 6.2.0 for Windows Desktopで利用可能なアーキテクチャを見つけることです。これを行うには、:ref:`aqt list-qt <list-qt command>` に ``--arch`` フラグを付けて確認します:"
+msgstr "次にすべきことは、Qt 6.2.0 for Windows Desktopで利用可能なアーキテクチャを見つけることです。これには、:ref:`aqt list-qt <list-qt command>` に ``--arch`` フラグを付けて確認します:"
 
 #: ../../getting_started.rst:80
 msgid ""
@@ -123,7 +123,7 @@ msgid ""
 "versions`_ wiki page to get a rough idea of what versions support the "
 "architecture we want, and then use :ref:`aqt list-qt <list-qt command>` "
 "to confirm that the architecture is available."
-msgstr "これは `Available Qt versions`_ wikiページにリストされているアーキテクチャの非常に小さなサブセットであることに注意してください。このリストにないアーキテクチャを使用する必要がある場合は、`Available Qt versions`_ wikiページを使用して、どのバージョンが希望するアーキテクチャをサポートしているかの大まかなアイデアを得てから、 :ref:`aqt list-qt <list-qt command>` を使用して、アーキテクチャが使用可能であることを確認します。"
+msgstr "`Available Qt versions`_ wikiページにリストされているアーキテクチャの非常に小さなサブセットだということに注意してください。このリストにないアーキテクチャを使用する必要がある場合には、`Available Qt versions`_ wikiページを使用して、どのバージョンが希望するアーキテクチャをサポートしているかの大まかなアイデアを得てから、 :ref:`aqt list-qt <list-qt command>` を使用して、アーキテクチャが使用可能であることを確認します。"
 
 #: ../../getting_started.rst:86
 msgid ""
