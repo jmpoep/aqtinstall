@@ -22,7 +22,7 @@ A file is like as follows:
     print_stacktrace_on_error: False
     always_keep_archives: False
     archive_download_location: .
-    min_archive_size: 41
+    min_module_size: 41
 
     [requests]
     connection_timeout: 3.5
