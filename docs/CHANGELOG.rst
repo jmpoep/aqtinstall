@@ -18,7 +18,7 @@ Fixed
 - fix list-qt-official, install-qt-official on macOS(#1015)
 - fix list-qt-official wrt types (#990)
 - fix IFW repository URLs (#1008)
-- reduct credential of the official installer in the log (#1026, #1019)
+- redact official-installer credentials in logs (#1026, #1019)
 - fix test_connection (#987)
 - NLUUG mirror URLs (#1006, #1005)
 - Patching for Qt 6.10.1 cross compile (#952)
