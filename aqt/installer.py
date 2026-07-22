@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2018 Linus Jahn <lnj@kaidan.im>
 #               2019-2026 Hiroshi Miura <miurahr@linux.com>
-#               2020, Aurélien Gâteau
+#               2020 Aurélien Gâteau
 #               2023 Alberto Mardegan
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy of
